@@ -1,0 +1,28 @@
+#job-app {
+
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: white;
+    font-family: sans-serif;
+    color: rgb(44, 51, 69);
+}
+
+h1 {
+    padding-left: 10%;
+    padding-top: 2%;
+}
+p {
+
+    padding-left: 10%;
+    padding-top: 2%;
+}
+
+body {
+    background-color: rgb(224, 240, 253);
+}
+span {
+
+    color: red;
+}
+
