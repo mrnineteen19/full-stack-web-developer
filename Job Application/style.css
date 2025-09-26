@@ -27,8 +27,14 @@ span {
 }
 
 form {
-
     padding-left: 10%;
+    display: flex;          /* yonma-yon qilish */
+      justify-content: space-between; /* orasini teng taqsimlash */
+      gap: 20px; 
+}
+input {
+    width: 30%;
+    height: 30px;
 }
 h3 {
     font-weight: lighter;
