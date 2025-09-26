@@ -1,0 +1,18 @@
+body {
+      font-family: 'Open Sans',Arial,sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+}
+
+.paragraph {
+    display: flex;
+}
+#heading {
+    text-align: center;
+}
+h1 {
+    font-size: 50px;
+}
+#p {
+    font-style: italic;
+}
