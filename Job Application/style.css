@@ -1,74 +1,398 @@
-#job-app {
-
-    margin-top: 5%;
+section {
     margin-left: 25%;
-    margin-right: 25%;
+    margin-right: 20%;
+    margin-top: 5%;
     background-color: white;
-    font-family: sans-serif;
-    color: rgb(44, 51, 69);
-}
-
-h1 {
-    padding-left: 10%;
-    padding-top: 2%;
-}
-p {
-
-    padding-left: 10%;
-    padding-top: 2%;
+    margin-bottom: 5%;
 }
 
 body {
-    background-color: rgb(224, 240, 253);
-}
-span {
-
-    color: red;
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
 }
 
-form {
-    padding-left: 10%;
-}
-input {
-    width: 30%;
-    height: 30px;
-}
-h3 {
-    font-weight: lighter;
+.form-header {
+    font-size: 2em;
+    font-weight: 600;
+    line-height: 1.45;
+    margin-left: 7%;
+    color: #353434;
 }
 
-h5 {
-    font-weight: lighter;
-    margin-top: 2%;
+.form-sub-header {
+    margin-top: -25px;
+    font-size: 1.2em;
+    font-weight: 550;
+    margin-left: 7%;
+    color: #353434;
 }
-#middle {
-    padding-left: 10%;
-    padding-top: 60px;
-    padding-left: 53px;
-}
-#last {
-    padding-left: 10%;
-    padding-top: 60px;
-    padding-left: 30px;
-}
-#full {
-    display: flex;
-    margin-left: 8%;
-}
-input {
-    width: 150px;
-}
- 
-#body {
-    display: flex;
-    margin-left: 10%;
 
+.first-texts {
+    font-size: 1.2em;
+    font-weight: 550;
+    margin-left: 7%;
+    color: #353434;
+    margin-bottom: 5px;
 }
-#height-input {
+
+.first-name-input {
+    margin-left: 7%;
+    height: 33px;
+    width: 180px;
+    cursor: pointer;
+    border: box #0a0a0a;
+    font-size: 1em;
+}
+
+.middle-name-input {
+    margin-left: 1%;
+    height: 33px;
+    width: 180px;
+    cursor: pointer;
+    border: box #0a0a0a;
+    font-size: 1em;
+}
+
+.last-name-input {
+    margin-left: 1%;
+    height: 33px;
+    width: 180px;
+    margin-right: 7%;
+    cursor: pointer;
+    border: box #0a0a0a;
+    font-size: 1em;
+}
+
+.input-sub-texts {
+    font-size: 0.9em;
+    font-weight: 450;
+    color: #353434;
+    margin-top: 8px;
+}
+
+.first-name-sub-text {
+    margin-left: 7%;
+}
+
+.middle-name-sub-text {
+    margin-left: 20.6%;
+}
+
+.last-name-sub-text {
+    margin-left: 18.9%;
+}
+
+.body-height-input {
+    margin-left: 7%;
+    height: 33px;
+    width: 300px;
+}
+
+.body-weight-input {
+    margin-left: 1%;
+    height: 33px;
+    width: 300px;
+}
+
+.body-height-sub-text {
+    margin-left: 7%;
+}
+
+.body-weight-sub-text {
+    margin-left: 38%;
+}
+
+.birth-day-month {
+    margin-left: 7%;
     width: 200px;
+    height: 33px;
+    font-size: 1em;
 }
-#weight-input {
+
+#birth-day-day {
+    margin-left: 1%;
     width: 200px;
+    height: 33px;
+    font-size: 1em;
 }
 
+#birth-day-year {
+    margin-left: 1%;
+    width: 200px;
+    height: 33px;
+    font-size: 1em;
+}
 
+.month-sub-text {
+    margin-left: 7%;
+}
+
+.day-sub-text {
+    margin-left: 23.8%;
+}
+
+.year-sub-text {
+    margin-left: 25.2%;
+}
+
+.family-status-radios {
+    margin-left: 7%;
+}
+
+.family-status-labels {
+    margin-left: 0.5%;
+    font-size: larger;
+}
+
+.street-address-input {
+    margin-left: 7%;
+    width: 650px;
+    height: 33px;
+    font-size: 1em;
+}
+
+.street-address-sub-text {
+    margin-left: 7%;
+}
+
+.city-input {
+    margin-left: 7%;
+    width: 300px;
+    height: 33px;
+    font-size: 1em;
+}
+
+.state-input {
+    margin-left: 2%;
+    width: 329px;
+    height: 33px;
+    font-size: 1em;
+}
+
+.city-address-sub-text {
+    margin-left: 7%
+}
+
+.state-address-sub-text {
+    margin-left: 39.4%
+}
+
+#email-input {
+    margin-left: 7%;
+    width: 300px;
+    height: 33px;
+    font-size: 1em;
+}
+
+#phone-code-input {
+    margin-left: 1%;
+    width: 90px;
+    height: 33px;
+    font-size: 1em;
+}
+
+#phone-number-input {
+    margin-left: 1%;
+    width: 200px;
+    height: 33px;
+    font-size: 1em;
+}
+
+.mail-sub-text {
+    margin-left: 7%;
+}
+
+.phone-code-sub-text {
+    margin-left: 24.5%;
+}
+
+.phone-number-sub-text {
+    margin-left: 5.9%;
+}
+
+.phone-number {
+    margin-left: 29%;
+}
+
+#linkedIn-input {
+    margin-left: 7%;
+    width: 270px;
+    height: 33px;
+    font-size: 1em;
+}
+
+#experience-input {
+    text-align: center;
+    width: 270px;
+    height: 33px;
+    font-size: 1em;
+}
+#hr-line {
+    margin-top: 5%;
+}
+
+.experience-text {
+    margin-left: 35%;
+}
+
+.job-select {
+    margin-left: 7%;
+    width: 334px;
+    height: 33px;
+    font-size: 1em;
+}
+
+.social-select {
+    margin-left: 1%;
+    width: 334px;
+    height: 33px;
+    font-size: 1em;
+}
+
+.search-text-for-info {
+    margin-left: 26.7%;
+}
+
+.available-date {
+    margin-left: 7%;
+    width: 334px;
+    height: 33px;
+    font-size: 1.5em;
+}
+
+.computer-skills-table {
+    margin-left: 7%;
+}
+
+table {
+    margin-left: 7%;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin-right: 7%;
+}
+
+th {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: #353434;
+    background-color: #d1e8f5;
+    border: 0.5px solid;
+}
+
+tr {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: #353434;
+    border: 0.5px solid;
+}
+
+td {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: #353434;
+    border: 0.5px solid;
+}
+
+.english-level-radios {
+    margin-left: 7%;
+    width: 45px;
+    height: 45px;
+}
+
+.td-one {
+    background-color: #d1e8f5;
+}
+
+.rating {
+    background-color: #f0f4ff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.radio-group {
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    margin: 10px 0;
+    margin-left: 7%;
+}
+
+.radio-group label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.radio-group input[type="radio"] {
+    display: none;
+}
+
+.custom-radio {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.radio-group input[type="radio"]:checked+.custom-radio {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+}
+
+.labels {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.cover-letter-text {
+    width: 600px;
+    height: 120px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.apply-button {
+    width: 180px;
+    height: 50px;
+    font-size: 1em;
+    background-color: black;
+    color: wheat;
+    margin-left: 40%;
+}
+
+.upload-container {
+    border: 2px dashed #ccc;
+    border-radius: 3px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.upload-container:hover {
+    border-color: #333;
+}
+
+.upload-container input[type="file"] {
+    display: none;
+}
+
+.upload-icon {
+    font-size: 24px;
+    color: #888;
+}
