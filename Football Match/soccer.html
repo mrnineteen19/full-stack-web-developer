@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>Soccer Match</title>
+
+    <style>
+     #soccer-match {
+        background-color: rgb(34, 34, 34);
+        color: white;
+        margin-left: 10%;
+        margin-right: 10%;
+        height: 300px;
+        margin-top: 5%;
+     }
+        #time-text {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+        }
+        #club-img {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80%;
+        }
+        #manchester-united, #chelsea {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #score {
+            font-size: 50px;
+            font-weight: bold;
+            padding: 0 20px;
+        }
+        #border {
+            padding: 20px;
+            border-radius: 15px;
+            background-color: black;
+        }
+
+    </style>
+    </head>
+
+    <body>
+        <div id="soccer-match">
+            <div id="time-text">
+                <div>20 сентября 2025, 21:30</div>
+                <div>Завершен</div>
+            </div>
+            <div id="club-img">
+                 <div id="manchester-united">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/7/7a/Manchester_United_FC_crest.svg" alt="Manchester United Logo" width="100" height="100">
+                    <div>Manchester United</div>
+                 </div>
+                 <div id="border"><div id="score">2 - 1</div></div>
+                    
+                 <div id="chelsea">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/c/cc/Chelsea_FC.svg" alt="Chelsea Logo" width="100" height="100">
+                    <div>Chelsea</div>
+                 </div>
+
+                    
+            </div>
+
+        </div>
+
+    </body>
+</html>
