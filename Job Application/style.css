@@ -28,9 +28,6 @@ span {
 
 form {
     padding-left: 10%;
-    display: flex;          /* yonma-yon qilish */
-      justify-content: space-between; /* orasini teng taqsimlash */
-      gap: 20px; 
 }
 input {
     width: 30%;
@@ -44,7 +41,34 @@ h5 {
     font-weight: lighter;
     margin-top: 2%;
 }
+#middle {
+    padding-left: 10%;
+    padding-top: 60px;
+    padding-left: 53px;
+}
+#last {
+    padding-left: 10%;
+    padding-top: 60px;
+    padding-left: 30px;
+}
+#full {
+    display: flex;
+    margin-left: 8%;
+}
+input {
+    width: 150px;
+}
+ 
+#body {
+    display: flex;
+    margin-left: 10%;
 
-
+}
+#height-input {
+    width: 200px;
+}
+#weight-input {
+    width: 200px;
+}
 
 
