@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(16, 26, 32);
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+.mr-nineteen {
+    color: white;
+    font-family: 'Arial Black', sans-serif;
+    font-size: 40px;
+    margin-left: 30px;
+    text-align: center;
+}
+.navigation__items {
+    list-style: none;
+    margin-left: 30px;
+}
+.navigation_items {
+    display: inline-block;
+    margin: 20px 20px;
+    font-size: 20px;
+}
+.navigation_items a {
+    text-decoration: none;
+    color: white;
+}
+
+.navigation_items a:hover {
+    color: rgb(19, 135, 193);
+}
+.main-content-section {
+    display: flex;
+    margin-top: 90px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.left-box h1 {
+    font-size: 50px;
+}
+.left-box h3 {
+    font-size: 20px;
+    /* color: rgb(19, 135, 193); */
+    margin-top: -20px;
+}
+.left-box {
+    width: 35%;
+    /* border: 2px solid red; */
+}
+.right-box {
+    width: 35%;
+    /* border: 2px solid blue; */
+    margin-left: 20%;
+    /* float: right;
+    margin-top: -150px; */
+}
+.view-work-button, .get-in-touch-button {
+    margin-top: 15px;    
+    height: 50px;
+    width: 150px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 35px;
+}
+.view-work-button:hover {
+    background-color: rgb(14, 100, 144);
+}
+.view-work-button {
+    background-color: rgb(19, 135, 193);
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.get-in-touch-button {
+    background-color: transparent;
+    color: rgb(19, 135, 193);
+    border-color: rgb(19, 135, 193);
+    font-size: 16px;
+    font-weight: bold;
+    border-width: 2px;
+}
+.right-box img {
+    width: 400px;
+    height: 500px;
+}
