@@ -6,7 +6,7 @@ body {
 .mr-nineteen {
     color: white;
     font-family: 'Arial Black', sans-serif;
-    font-size: 40px;
+    font-size: 20px;
     margin-left: 30px;
     text-align: center;
 }
@@ -29,28 +29,28 @@ body {
 }
 .main-content-section {
     display: flex;
-    margin-top: 90px;
+    margin-top: 80px;
     margin-left: 120px;
     margin-right: 120px;
+    margin-bottom: 60px;
 }
 .left-box h1 {
     font-size: 50px;
 }
 .left-box h3 {
     font-size: 20px;
-    /* color: rgb(19, 135, 193); */
     margin-top: -20px;
 }
 .left-box {
-    width: 35%;
+    width: 55%;
     /* border: 2px solid red; */
+    height: 450px;
 }
 .right-box {
-    width: 35%;
+    width: 45%;
     /* border: 2px solid blue; */
     margin-left: 20%;
-    /* float: right;
-    margin-top: -150px; */
+    /* height: 450px; */
 }
 .view-work-button, .get-in-touch-button {
     margin-top: 15px;    
@@ -80,6 +80,18 @@ body {
     border-width: 2px;
 }
 .right-box img {
-    width: 400px;
-    height: 500px;
+    width: 80%;
+    border-radius: 10%;
+    padding-right: 40px;
+    height: auto;
+    margin-top: -30px;
+    object-fit: cover;
+    object-position: center;
+    background-color: transparent;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.main-footer h4{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
