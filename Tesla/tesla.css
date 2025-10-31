@@ -1,3 +1,9 @@
+ body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
  ul {
             list-style: none;
             display: flex;
@@ -35,48 +41,41 @@ img {
     width: auto;
     position: relative;
 }
-.model-y-section {
-    background-image: url('Homepage-Promo-Meet-Model-3-Desktop.avif');
-    background-size: cover;
-    background-position: center;
-    height: 600px;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.model-y-section .image-container {
+    height: 450px;
+    width: 100%;
+    overflow: hidden; 
+}
+.model-y-section .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .model-y-section h1 {
-    font-size: 70px;
+    font-size: 60px;
     position: relative;
-    top: -150px;
+    top: -450px;
+    text-align: center;
+    color: white;
 }
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
+
 .bottom1 {
     background-color: rgb(62, 106, 225);
-    height: 50px;
-    display: flex;
+    height: 45px;
     align-items: center;
-    width: 250px;
+    width: 230px;
     color: white;
-    border-radius: 10px;
+    border-radius: 5px;
     border-style: none;
     justify-content: center;
 }
 .bottom2 {
     background-color: white;
-    height: 50px;
-    display: flex;
+    height: 45px;
     align-items: center;
-    width: 250px;
+    width: 230px;
     color: black;
-    border-radius: 10px;
+    border-radius: 5px;
     border-style: none;
     justify-content: center;
 }
@@ -85,8 +84,9 @@ body {
     gap: 10px;
     margin-top: 20px;
     position: relative;
-    top: -190px;
-    font-style: bold;
+    top: -470px;
+    justify-content: center;
+    text-align: center;
 }
 
 div .side {
@@ -102,4 +102,5 @@ div .side {
 div .side img {
    border-color: black;;
 }
+
 
