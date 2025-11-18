@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .calculator {
+        border: 2px solid black;
+        background-color: yellow;
+        border-radius: 20px;
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 20px;
+    }
+
+    input {
+        width: 100px;
+        height: 30px;
+        margin: 10px;
+        font-size: 16px;
+    }
+
+    button {
+        width: 50px;
+        height: 36px;
+        font-size: 16px;
+        margin: 10px;
+        cursor: pointer;
+    }
+
+    #answer {
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+</style>
+
+<body>
+
+<div class="calculator">
+    <input id="num1" type="number">
+    <input id="num2" type="number">
+    <br>
+    <button onclick="qoshish()"> + </button>
+    <button onclick="ayrish()"> - </button>
+    <button onclick="kopaytirish()"> * </button>
+    <button onclick="bolish()"> / </button>
+    <p id="answer"></p>
+</div>
+
+    <script>
+        function qoshish() {
+            let a = Number(document.getElementById("num1").value);
+            let b = Number(document.getElementById("num2").value);
+
+            document.getElementById("answer").innerHTML = "Qo'shuv natijasi: " + (a + b);
+        }
+
+        function ayrish() {
+            let a = Number(document.getElementById("num1").value);
+            let b = Number(document.getElementById("num2").value);
+
+            document.getElementById("answer").innerHTML = "Ayruv natijasi: " + (a - b);
+        }
+        function kopaytirish() {
+            let a = Number(document.getElementById("num1").value);
+            let b = Number(document.getElementById("num2").value);
+
+            document.getElementById("answer").innerHTML = "Ko'paytiruv natijasi: " + (a * b);
+        }
+        function bolish() {
+            let a = Number(document.getElementById("num1").value);
+            let b = Number(document.getElementById("num2").value);
+
+            document.getElementById("answer").innerHTML = "Bo'lish natijasi: " + (a / b);
+        }
+    </script>
+
+</body>
+
+</html>
